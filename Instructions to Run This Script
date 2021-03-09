@@ -1,0 +1,7 @@
+Given script help you to host a static website using S3 from your local using a windows command script
+Download the Zip code to your local and extract the files
+create a Test Folder in your local and copy Policy.Json file it an dnote the file path. This path needs to be upated in the S3.cmd script
+Update S3.cmd with your AWs secure access key ID and Secret access key, Region, and bucket name with your preferance in the script and save.
+Make sure you have insta
+Run the script by double clicking on it
+To Test the website which is hosted using S3 Use this URL :  https://<Buketname>.s3-eu-west-1.amazonaws.com/index.html
