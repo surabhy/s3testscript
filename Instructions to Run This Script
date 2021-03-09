@@ -1,5 +1,5 @@
 Step 1
-Given script help you to host a static website using S3 and display "Hellow World" from your local using a windows command script
+Given script help you to create a bucket in S3 as a website and serve a HTML page (eg : Hello World)  on the root path of the bucket
 Download the Zip code to your local and extract the files
 ########################################################################################
 Step 2
