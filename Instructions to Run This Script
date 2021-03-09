@@ -1,4 +1,4 @@
-Given script help you to host a static website using S3 from your local using a windows command script
+Given script help you to host a static website using S3 and display "Hellow World" from your local using a windows command script
 Download the Zip code to your local and extract the files
 create a Test Folder in your local and copy Policy.Json file to it and note the file path. This path needs to be upated in the S3.cmd script
 Update S3.cmd with your AWs secure access key ID and Secret access key, Region,Policy.Json file copied path and bucket name  in the script and save.
