@@ -1,7 +1,22 @@
+Step 1
 Given script help you to host a static website using S3 and display "Hellow World" from your local using a windows command script
 Download the Zip code to your local and extract the files
-create a Test Folder in your local and copy Policy.Json file to it and note the file path. This path needs to be upated in the S3.cmd script
-Update S3.cmd with your AWs secure access key ID and Secret access key, Region,Policy.Json file copied path and bucket name  in the script and save.
+########################################################################################
+Step 2
+Create a Test Folder in your local and copy Policy.Json file
+Edit the JSON file with your required bucket name and note the file copied path. This path needs to be upated in the S3.cmd script
+#########################################################################################
+Step 3
+Update S3.cmd with your AWS secure access key ID and Secret access key, Region,Policy.Json file copied path and bucket name  in the script and save.
 Make sure you have installed AWS CLI if not refer to this link  https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html
-Run the script by double clicking on it
+##########################################################################################
+Step 4
+Run the script S3.cmd by double clicking on it
+##########################################################################################
+Step5
 To Test the website which is hosted using S3 Use this URLafter updating the bucket name and region and paste in your browser. URL is https://<Buketname>.s3-eu-west-1.amazonaws.com/index.html
+
+############################################################################################
+Step6
+To delete the S3 Bucket
+Edit S3-delete script and update your accesskey ID, Secure access key and Bucket name and region and save. Double click on the script to run and delete the S3 Bucket.
